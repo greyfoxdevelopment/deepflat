@@ -1,0 +1,24 @@
+# Data-only mod: no Java code, so the "lowcodefml" loader is used.
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="deepflat"
+version="${file.jarVersion}"
+displayName="DeepFlat"
+description='''Four flat/vanilla-hybrid world types (DeepFlat, Biome Flat, Flat Oceans, Biome Terrain) with deep caves, ores and vanilla biomes. Data-driven; no other mods required.'''
+
+[[dependencies.deepflat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.deepflat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"

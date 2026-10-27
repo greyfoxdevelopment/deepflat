@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "deepflat:deepflat",
+    "deepflat:biome_flat",
+    "deepflat:flat_oceans",
+    "deepflat:biome_terrain"
+  ]
+}

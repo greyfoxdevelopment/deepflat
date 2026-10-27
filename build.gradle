@@ -1,0 +1,21 @@
+// DeepFlat is a data-only NeoForge mod (modLoader "lowcodefml"): the jar is just the
+// bundled data/assets plus META-INF/neoforge.mods.toml. No NeoForge dev toolchain or
+// network access is required to build it.
+plugins {
+    id 'java'
+}
+
+group = 'deepflat'
+version = project.mod_version
+
+processResources {
+    inputs.property 'jarVersion', project.mod_version
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand 'file': [jarVersion: project.mod_version]
+    }
+}
+
+jar {
+    archiveBaseName = 'deepflat'
+    archiveVersion = "${project.minecraft_version}-neoforge-${project.mod_version}"
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:min",
+  "argument1": "deepflat:cave_mask",
+  "argument2": "deepflat:ocean_basin_profile"
+}

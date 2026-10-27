@@ -1,0 +1,7 @@
+{
+  "generator.deepflat.deepflat": "DeepFlat",
+  "generator.deepflat.biome_flat": "DeepFlat Biome Flat",
+  "generator.deepflat.flat_oceans": "DeepFlat Flat Oceans",
+  "generator.deepflat.biome_terrain": "DeepFlat Biome Terrain",
+  "biome.deepflat.flatlands": "Flatlands"
+}
